@@ -11,3 +11,4 @@ spec:
     name: manual-approve-test
   interval: 30s
   approvePlan: ""
+  storeReadablePlan: human
