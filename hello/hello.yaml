@@ -9,5 +9,5 @@ spec:
     kind: GitRepository
     name: manual-approve-test
   interval: 30s
-  approvePlan: "plan-main-6ccc3fa63b2a1598b7b91a7aa7a0246c037b4bc3"
+  approvePlan: "plan-main-fd9d9a78f9ca9936037229f7ded53af5f75079eb"
   storeReadablePlan: human
