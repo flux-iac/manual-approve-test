@@ -8,6 +8,9 @@ spec:
   sourceRef:
     kind: GitRepository
     name: manual-approve-test
+  vars:
+  - name: subject
+    value: cat
   interval: 30s
   approvePlan: "plan-main-a8f28417b9"
   storeReadablePlan: human
