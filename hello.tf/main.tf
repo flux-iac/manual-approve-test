@@ -8,6 +8,14 @@ variable "subject" {
    description = "Subject to hello"
 }
 
+resource "random_id" "id" {
+  keepers = {
+    trigger = var.subject
+  }
+
+  byte_length = 4
+}
+
 output "hello_world" {
   value = "Hello Test, ${var.subject}!"
 }
