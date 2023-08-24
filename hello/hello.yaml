@@ -12,5 +12,5 @@ spec:
   - name: subject
     value: many_cats
   interval: 30s
-  approvePlan: "plan-main-0fd556ccb4"
+  approvePlan: "auto"
   storeReadablePlan: human
