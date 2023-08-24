@@ -10,7 +10,7 @@ spec:
     name: manual-approve-test
   vars:
   - name: subject
-    value: cat
+    value: many_cats
   interval: 30s
   approvePlan: "plan-main-0fd556ccb4"
   storeReadablePlan: human
