@@ -1,4 +1,4 @@
-apiVersion: infra.contrib.fluxcd.io/v1alpha1
+apiVersion: infra.contrib.fluxcd.io/v1alpha2
 kind: Terraform
 metadata:
   name: helloworld
@@ -9,5 +9,5 @@ spec:
     kind: GitRepository
     name: manual-approve-test
   interval: 30s
-  approvePlan: "plan-main-fd9d9a78f9ca9936037229f7ded53af5f75079eb"
+  approvePlan: ""
   storeReadablePlan: human
