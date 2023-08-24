@@ -3,7 +3,7 @@
 ```yaml
 cat <<EOF | kubectl apply -f -
 ---
-apiVersion: source.toolkit.fluxcd.io/v1beta1
+apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: manual-approve-test
@@ -14,7 +14,7 @@ spec:
   ref:
     branch: main
 ---
-apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
   name: manual-approve-test
